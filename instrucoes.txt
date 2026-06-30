@@ -1,0 +1,35 @@
+
+1. Criar a estrutura do projeto
+meuprojeto/
+ ├── public/
+ │    └── index.html
+ ├── server.js
+
+2. Criar o formulário HTML
+3. Instalar o Node.js e dependências
+npm init -y
+npm install express mysql2
+4. Criar o servidor (server.js)
+5. Criar o banco no XAMPP - Worckbench
+CREATE DATABASE meubanco;
+
+USE meubanco;
+
+CREATE TABLE usuarios (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100),
+  email VARCHAR(100)
+);
+6. Rodar o sistema
+	1. Iniciar o XAMPP
+	2. Rodar o Node
+	node server.js
+	Rodando em http://localhost:3000
+Conectado ao banco!
+
+	3. Abrir no navegador
+	http://localhost:3000
+7. Testar o formulário
+8. Verificar no banco
+	SELECT * FROM usuarios;
+
