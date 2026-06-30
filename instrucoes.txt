@@ -32,4 +32,8 @@ Conectado ao banco!
 7. Testar o formulário
 8. Verificar no banco
 	SELECT * FROM usuarios;
-
+O banco fica na máquina no 
+http://localhost/phpmyadmin
+ou
+workbench
+PC: C:\xampp\mysql\data\meubanco\
